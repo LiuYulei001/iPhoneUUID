@@ -34,12 +34,7 @@ Pod::Spec.new do |s|
   #  Licensing your code is important. See http://choosealicense.com for more info.
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
-  #
-
-  ＃s.license      = "MIT (example)"
-   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the authors of the library, with email addresses. Email addresses
@@ -62,7 +57,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "7.0"
+   s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -86,11 +81,7 @@ Pod::Spec.new do |s|
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
-  #
-
-  ＃s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  ＃s.exclude_files = "Classes/Exclude"
-s.ios.vendored_frameworks = 'MyUUID.framework'
+   s.ios.vendored_frameworks = 'MyUUID.framework'
   # s.public_header_files = "Classes/**/*.h"
 
 
