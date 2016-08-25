@@ -1,5 +1,7 @@
 # iPhoneUUID
 
+pod 'MyUUID'
+
 获取iPhone的唯一标识符
 
 NSString * strUUID = (NSString *)[SPIMyUUID load:@"KEY_USERNAME_PASSWORD"];
